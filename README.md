@@ -1,4 +1,5 @@
 # Void Filling of Digital Elevation Models Based on Terrain Feature-Guided Diffusion Model
+![TFDM Framework](./images/TFDM.png)
 
 [![DOI](https://img.shields.io/badge/DOI-10.1016/j.rse.2024.114432-blue)](https://doi.org/10.1016/j.rse.2024.114432)
 

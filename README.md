@@ -66,16 +66,14 @@ If you use this code in your research, please cite:
 
 ## Acknowledgements
 
-The authors would like to thank the editor, associate editor, and anonymous reviewers for their helpful comments and advice.
+This work is inspired by and builds upon the following:
 
-This work was supported by:
+- [RePaint: Inpainting using Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2201.09865)  
+  *Andreas Lugmayr, Martin Danelljan, Andres Romero, Fisher Yu, Radu Timofte, Luc Van Gool, Computer Vision Lab, ETH Zürich, Switzerland*  
 
-* National Natural Science Foundation of China (Grant No. 42171384)
-* Key Laboratory of Urban Meteorology, China Meteorological Administration, China (Grant No. LUM-2024-10)
-* Opening Fund of Key Laboratory of Geological Survey and Evaluation of Ministry of Education (Grant No. GLAB 2023ZR06)
-* Fundamental Research Funds for the Central Universities, China University of Geosciences (Grant No. 2024XLB34)
+- [OpenAI Guided Diffusion](https://github.com/openai/guided-diffusion)
 
-Yuting Dong gratefully acknowledges the support of the Alexander von Humboldt Foundation.
+
 
 ---
 

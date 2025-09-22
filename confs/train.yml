@@ -33,7 +33,7 @@ model:
     num_channels: 256
     num_res_blocks: 2
     channel_mult: ""
-    learn_sigma: True #diffusion中也有使用
+    learn_sigma: True 
     class_cond: false
     use_checkpoint: true
 
@@ -80,7 +80,7 @@ schedule_jump_params:
   jump_length: 10
   jump_n_sample: 10
 data:
-  return_dataloader: false #训练时设置为false，测试时设置为true
+  return_dataloader: false 
 
   train:
     gt_path: /home/yingying/project/conditional_diffusion/dataset/train/ASTER

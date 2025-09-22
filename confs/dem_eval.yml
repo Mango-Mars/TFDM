@@ -17,10 +17,8 @@ use_ddim: false
 latex_name: RePaint
 method_name: Repaint
 image_size: 256
-#model_path: /home/yingying/project/conditional_diffusion/model_logs/ASTER30_tf/ema_0.999_250000.pt
 model_path: /home/yingying/project/conditional_diffusion/model_logs/ASTER_ls8/ema_0.999_500000.pt
-#model_path: /home/yingying/project/conditional_diffusion/model_logs/unconditional_logs/ema_0.999_250000.pt
-#model_path: /home/yingying/project/conditional_diffusion/model_logs/ASTER_s2/ema_0.999_500000.pt
+
 name: dem_example
 inpa_inj_sched_prev: true
 n_jobs: 1
@@ -36,7 +34,7 @@ model:
     num_channels: 256
     num_res_blocks: 2
     channel_mult: ""
-    learn_sigma: True #diffusion中也有使用
+    learn_sigma: True 
     class_cond: false
     use_checkpoint: true
 
@@ -84,7 +82,7 @@ schedule_jump_params:
   jump_length: 10
   jump_n_sample: 10
 data:
-  return_dataloader: false #训练时设置为false，测试时设置为true
+  return_dataloader: false 
 
   train:
     gt_path: /home/yingying/project/conditional_diffusion/dataset/train/ASTER
@@ -120,3 +118,4 @@ data:
       lrs: /home/yingying/project/conditional_diffusion/dataset/output/test_ls8/generalisation/gt_masked
       gts: /home/yingying/project/conditional_diffusion/dataset/output/test_ls8/generalisation/gt
       gt_keep_masks: /home/yingying/project/conditional_diffusion/dataset/output/test_ls8/generalisation/gt_keep_mask
+

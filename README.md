@@ -66,12 +66,19 @@ If you use this code in your research, please cite:
 
 ## Acknowledgements
 
-This work is inspired by and builds upon the following:
+We would like to express our gratitude to the following works and open-source projects that greatly inspired and supported this research and implementation:
 
-- [RePaint: Inpainting using Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2201.09865)  
-  *Andreas Lugmayr, Martin Danelljan, Andres Romero, Fisher Yu, Radu Timofte, Luc Van Gool, Computer Vision Lab, ETH Zürich, Switzerland*  
+- **RePaint: Inpainting using Denoising Diffusion Probabilistic Models**  
+  *Andreas Lugmayr, Martin Danelljan, Andres Romero, Fisher Yu, Radu Timofte, Luc Van Gool*  
+  *Computer Vision Lab, ETH Zürich, Switzerland*  
+  This paper proposed a pioneering method for image inpainting with diffusion models, which provided important theoretical and methodological guidance for our work.  
+  [Paper link](https://arxiv.org/abs/2201.09865)
 
-- [OpenAI Guided Diffusion](https://github.com/openai/guided-diffusion)
+- **OpenAI Guided Diffusion**  
+  The official implementation of guided diffusion by OpenAI. This repository served as a solid codebase reference, especially regarding the training and sampling pipeline of diffusion models.  
+  [GitHub link](https://github.com/openai/guided-diffusion)
+
+We sincerely appreciate the efforts of the researchers and developers who released their code and findings to the community. Their contributions made our work possible and significantly accelerated our progress.
 
 
 
